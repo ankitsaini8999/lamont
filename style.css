@@ -8,37 +8,13 @@
 ::-webkit-scrollbar{
 	display: none;
 }
-/*
-[data-scroll] {
-  opacity: 0;
-  will-change: transform, scale(), opacity;
-  transform: translateY(3rem);
-  transition: all 1.5s ease-in-out;
-}
-[data-scroll="in"] {
-  opacity: 1;
-  transform: translateY(0);
-}
-[data-scroll="out"] {
-  opacity: 0;
-}*/
 
 /*instead of using overflow hidden use scrollbar display none*/
 html, body {
 	height: 100%;
 	width: 100%;
 	cursor: pointer;
-    /*font-family: 'Lobster', cursive;*/
-	/*font-family: 'Berkshire Swash', cursive;*/
-	/*font-family: 'Caveat', cursive;*/
-	/*font-family: 'Great Vibes', cursive;*/
-	/*font-family: 'Homemade Apple', cursive;*/
-	/*font-family: 'Monoton', cursive;*/
-	/*font-family: 'Pacifico', cursive;*/
 	font-family: 'Permanent Marker', cursive;
-	/*font-family: 'Rock Salt', cursive;*/
-	/*font-family: 'Sacramento', cursive;*/
-	/*font-family: 'Special Elite', cursive;*/
 }
 :root{
 	--1box-shadow : 0 0 10px #000,0 0 10px #000,0 0 10px #000,0 0 10px #000,0 0 10px #000,0 0 10px #000; 
@@ -47,7 +23,7 @@ html, body {
 .box1{
 	width: 90vw;
 	height: 90vh;
-	background: linear-gradient(123deg,rgba(0,0,0,.2),rgba(255,255,255,.2),rgba(25,2,2,.2)),url(images/img/table4.jpg); 
+	background: linear-gradient(123deg,rgba(0,0,0,.2),rgba(255,255,255,.2),rgba(25,2,2,.2)),url(img/table4.jpg); 
 	position: fixed;
 	background-size: cover;
     top: 50%;
@@ -81,8 +57,8 @@ html, body {
 	color: #2C99F9;
 }
 .box1 .social-icon{
-	position: relative;
-	top: 90%;
+    position: relative;
+    top: 90%;
     left: 50%;
     transform: translate(-50%,-90%);
     display: flex;
@@ -95,22 +71,11 @@ html, body {
 .box1 .social-icon i:hover{
 	text-shadow: 0px 0px 10px #1EF70D;
 }
-.character{
-	position: absolute;
-	top: 4%;
-	right: .9%;
-	font-size: 35px;
-	color: chartreuse;
-	transition: opacity .2s;
-}
-.box1:hover .char{
-	opacity: 0;
-}
 .cont1{
 	width: 100vw;
 	height: 100vh;
 	position: relative;
-	background: linear-gradient(45deg,rgba(0,0,0,.3),rgba(0,0,0,.3)),url(images/img/enter.jpg);
+	background: linear-gradient(45deg,rgba(0,0,0,.3),rgba(0,0,0,.3)),url(img/enter.jpg) center no-repeat;
 	background-size: cover;
 }
 #wrap {
@@ -121,14 +86,6 @@ html, body {
   width: 750px;
   text-align: right;
 }
-/*#myVideo {
-  position: absolute;
-  right: 0;
-  bottom: 0;
-  min-width: 100vw;
-  min-height: 100vh;
-}*/
-
 #wrap h1 {
   color: rgba(255,255,255,.9);
   font-size: 2.1rem;
@@ -166,7 +123,7 @@ html, body {
 	width: 100vw;
 	height: 100vh;
 	position: relative;
-	background: linear-gradient(45deg,rgba(0,0,0,.3),rgba(0,0,0,.3)),url(images/img/interior.jpg);
+	background: linear-gradient(45deg,rgba(0,0,0,.3),rgba(0,0,0,.3)),url(img/interior.jpg) center no-repeat;
 	background-size: cover;
 	font-family: 'Pacifico', cursive;
 }
@@ -220,7 +177,7 @@ html, body {
 	width: 100vw;
 	height: 100vh;
 	position: relative;
-	background: url(images/img/table2.jpg);
+	background: url(img/table2.jpg) center no-repeat;
 	background-size: cover;
 }
 .cont3 .serve{
@@ -250,7 +207,7 @@ html, body {
 	position: absolute;
     width: 250px;
 	height: 180px;
-	background: url(images/img/veg1.jpg);
+	background: url(img/veg1.jpg) center no-repeat;
 	background-size: cover;
 	box-shadow: var(--1box-shadow);
 	margin-top: 130px;
@@ -268,7 +225,7 @@ html, body {
 	position: absolute;
     width: 250px;
 	height: 180px;
-	background: url(images/img/nonveg1.jpg);
+	background: url(img/nonveg1.jpg) center no-repeat;
 	background-size: cover;
 	box-shadow: var(--1box-shadow);
 	margin-top: 400px;
@@ -297,7 +254,7 @@ html, body {
 	position: absolute;
     width: 250px;
 	height: 160px;
-	background: url(images/img/ice1.jpg);
+	background: url(img/ice1.jpg) center no-repeat;
 	background-size: cover;
 	box-shadow: var(--1box-shadow);
 	margin-top: 120px;
@@ -315,7 +272,7 @@ html, body {
 	position: absolute;
     width: 250px;
 	height: 160px;
-	background: url(images/img/cake5.jpg) center;
+	background: url(img/cake5.jpg) center no-repeat;
 	background-size: cover;
 	box-shadow: var(--1box-shadow);
 	margin-top: 300px;
@@ -333,7 +290,7 @@ html, body {
 	position: absolute;
     width: 250px;
 	height: 160px;
-	background: url(images/img/sweet.jpg) center;
+	background: url(img/sweet.jpg) center no-repeat;
 	background-size: cover;
 	box-shadow: var(--1box-shadow);
 	margin-top: 480px;
@@ -361,7 +318,7 @@ html, body {
 	position: absolute;
     width: 250px;
 	height: 130px;
-	background: url(images/img/drink3.jpg) center;
+	background: url(img/drink3.jpg) center no-repeat;
 	background-size: cover;
 	box-shadow: var(--1box-shadow);
 	margin-top: 65px;
@@ -379,7 +336,7 @@ html, body {
 	position: absolute;
     width: 250px;
 	height: 130px;
-	background: url(images/img/drink16.jpg) center;
+	background: url(img/drink16.jpg) center no-repeat;
 	background-size: cover;
 	box-shadow: var(--1box-shadow);
 	margin-top: 210px;
@@ -397,7 +354,7 @@ html, body {
 	position: absolute;
     width: 250px;
 	height: 130px;
-	background: url(images/img/wine2.jpg) center;
+	background: url(img/wine1.jpg) center no-repeat;
 	background-size: cover;
 	box-shadow: var(--1box-shadow);
 	margin-top: 360px;
@@ -415,7 +372,7 @@ html, body {
 	position: absolute;
     width: 250px;
 	height: 130px;
-	background: url(images/img/drink31.jpg) center;
+	background: url(img/drink31.jpg) center no-repeat;
 	background-size: cover;
 	box-shadow: var(--1box-shadow);
 	margin-top: 510px;
@@ -433,7 +390,7 @@ html, body {
 	width: 100vw;
 	height: 100vh;
 	position: relative;
-	background: linear-gradient(45deg,rgba(0,0,0,.3),rgba(0,0,0,.3)), url(images/img/table6.jpg);
+	background: linear-gradient(45deg,rgba(0,0,0,.3),rgba(0,0,0,.3)), url(img/table6.jpg) center no-repeat;
 	background-size: cover;
 }
 .veg-section{
@@ -477,7 +434,7 @@ html, body {
 	width: 100vw;
 	height: 100vh;
 	position: relative;
-	background: linear-gradient(45deg,rgba(0,0,0,.3),rgba(0,0,0,.3)), url(images/img/nonveg1.jpg);
+	background: linear-gradient(45deg,rgba(0,0,0,.3),rgba(0,0,0,.3)), url(img/nonveg1.jpg) center no-repeat;
 	background-size: cover;
 }
 .non-veg-section{
@@ -525,7 +482,7 @@ html, body {
 	width: 100vw;
 	height: 100vh;
 	position: relative;
-	background: linear-gradient(45deg,rgba(0,0,0,.3),rgba(0,0,0,.3)), url(images/img/ice10.jpg);
+	background: linear-gradient(45deg,rgba(0,0,0,.3),rgba(0,0,0,.3)), url(img/ice10.jpg) center no-repeat;
 	background-size: cover;
 	text-align: center;
 }
@@ -570,7 +527,7 @@ html, body {
 	width: 100vw;
 	height: 100vh;
 	position: relative;
-	background: linear-gradient(45deg,rgba(0,0,0,.2),rgba(0,0,0,.2)), url(images/img/drink26.jpg) center no-repeat;
+	background: linear-gradient(45deg,rgba(0,0,0,.2),rgba(0,0,0,.2)), url(img/drink26.jpg) center no-repeat;
 	background-size: cover;
 	text-align: center;
 }
@@ -620,7 +577,7 @@ html, body {
                                         rgba(21,31,32,1) 0%,
                                         rgba(21,31,32,.95) 50%,  
                                         transparent 50%),
-                  url(images/img/table11.jpg) center no-repeat ;
+                  url(img/table11.jpg) center no-repeat ;
      -webkit-background-size:cover;
     background-size:cover;             
 }
@@ -664,24 +621,6 @@ html, body {
 }
 
 @media (max-width: 450px){
-/* [data-scroll] {
-  opacity: 1 !important;
-  will-change: none !important;
-  transform: translateY(0) !important;
-}
-[data-scroll="in"] {
-  opacity: 1 !important;
-  transform: translateY(0);
-}
-[data-scroll="out"] {
-  opacity: 1 !important;
-}*/
-
-	.cont1{
-	position: relative;
-	background: linear-gradient(45deg,rgba(0,0,0,.3),rgba(0,0,0,.3)),url(images/img/enter.jpg) center no-repeat;
-	background-size: cover;
-    }
     #wrap {
 	  position: absolute;
 	  width: 100vw;
@@ -702,11 +641,7 @@ html, body {
 	  color: rgba(120,20,250,.9);
 	  font-size: 1.5rem;
 	}
-	
 	.cont2{
-	position: relative;
-	background: linear-gradient(45deg,rgba(0,0,0,.3),rgba(0,0,0,.3)),url(images/img/interior.jpg) center no-repeat;
-	background-size: cover;
 	height: 160vh !important;
     }
     .cont2 .msg{
